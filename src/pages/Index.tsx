@@ -7,6 +7,7 @@ import Features from '@/components/home/Features';
 import ProductShowcase from '@/components/home/ProductShowcase';
 import Testimonials from '@/components/home/Testimonials';
 import Contact from '@/components/home/Contact';
+import Chatbot from '@/components/chat/Chatbot';
 
 const Index = () => {
   // Add smooth scrolling for anchor links
@@ -41,6 +42,7 @@ const Index = () => {
         <Contact />
       </main>
       <Footer />
+      <Chatbot />
     </div>
   );
 };
